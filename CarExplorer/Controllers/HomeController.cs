@@ -24,6 +24,13 @@ namespace CarExplorer.Controllers
             var vehicleTypes = await _carService.GetVehicleTypesAsync(makeId);
             return Json(vehicleTypes);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetModels(int makeId,int year)
+        {
+            var models = await _carService.GetModelsAsync(makeId, year);
+            return Json(models);
+        }
         public IActionResult Privacy()
         {
             return View();

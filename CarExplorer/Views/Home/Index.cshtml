@@ -3,7 +3,6 @@
 <div class="container mt-4">
 
     <h2>Car Makes</h2>
-
     <select id="makeSelect" class="form-select">
         <option value="">-- Select Make --</option>
 
@@ -18,11 +17,36 @@
 
 
     <h2 class="mt-4">Vehicle Types</h2>
-
     <select id="vehicleTypeSelect" class="form-select">
         <option value="">-- Select Type --</option>
     </select>
 
+
+    <div class="mt-3">
+
+        <label>Manufacture Year</label>
+
+        <input id="yearInput"
+               type="number"
+               class="form-control"
+               placeholder="Enter year" />
+
+    </div>
+
+
+    <button id="searchBtn"
+            class="btn btn-primary mt-3">
+        Search Models
+    </button>
+
+
+    <h2 class="mt-4">Models</h2>
+
+    <select id="modelSelect" class="form-select">
+        <option value="">
+            -- Select Model --
+        </option>
+    </select>
 </div>
 
 
@@ -69,5 +93,68 @@
                 });
 
         });
+
+
+            document
+        .getElementById("searchBtn")
+        .addEventListener("click", function () {
+
+
+        var makeId =
+            document.getElementById("makeSelect").value;
+
+
+        var year =
+            document.getElementById("yearInput").value;
+
+
+        var vehicleType =
+            document.getElementById("vehicleTypeSelect").value;
+
+
+
+        if (!makeId || !year) {
+            alert("Please select make and enter year");
+            return;
+        }
+
+
+        fetch(`/Home/GetModels?makeId=${makeId}&year=${year}&vehicleType=${vehicleType}`)
+            .then(response => response.json())
+            .then(data => {
+
+
+                var modelSelect =
+                    document.getElementById("modelSelect");
+
+
+                modelSelect.innerHTML =
+                    '<option value="">-- Select Model --</option>';
+
+
+
+                data.forEach(model => {
+
+
+                    var option =
+                        document.createElement("option");
+
+
+                    option.value =
+                        model.model_ID;
+
+
+                    option.text =
+                        model.model_Name;
+
+
+                    modelSelect.appendChild(option);
+
+                });
+
+
+            });
+
+    });
 
 </script>
