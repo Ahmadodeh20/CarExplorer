@@ -1,4 +1,5 @@
 using CarExplorer.Models;
+using CarExplorer.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,9 +7,15 @@ namespace CarExplorer.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ICarService _carService;
+        public HomeController(ICarService carService)
         {
-            return View();
+           _carService = carService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var makes = await _carService.GetMakesAsync();
+            return View(makes);
         }
 
         public IActionResult Privacy()
