@@ -4,7 +4,7 @@
 
     <h2>Car Makes</h2>
 
-    <select class="form-select">
+    <select id="makeSelect" class="form-select">
         <option value="">-- Select Make --</option>
 
         @foreach (var make in Model)
@@ -16,4 +16,58 @@
 
     </select>
 
+
+    <h2 class="mt-4">Vehicle Types</h2>
+
+    <select id="vehicleTypeSelect" class="form-select">
+        <option value="">-- Select Type --</option>
+    </select>
+
 </div>
+
+
+<script>
+
+    document
+        .getElementById("makeSelect")
+        .addEventListener("change", function () {
+
+            var makeId = this.value;
+
+            if (!makeId) {
+                return;
+            }
+
+
+            fetch(`/Home/GetVehicleTypes?makeId=${makeId}`)
+                .then(response => response.json())
+                .then(data => {
+
+                    var typeSelect =
+                        document.getElementById("vehicleTypeSelect");
+
+
+                    typeSelect.innerHTML =
+                        '<option value="">-- Select Type --</option>';
+
+
+                    data.forEach(type => {
+
+                        var option =
+                            document.createElement("option");
+
+                        option.value =
+                            type.vehicleTypeId;
+
+                        option.text =
+                            type.vehicleTypeName;
+
+
+                        typeSelect.appendChild(option);
+                    });
+
+                });
+
+        });
+
+</script>

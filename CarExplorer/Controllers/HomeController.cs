@@ -14,10 +14,16 @@ namespace CarExplorer.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var makes = await _carService.GetMakesAsync();
+            var makes = await _carService.GetAllMakes();
             return View(makes);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetVehicleTypes(int makeId)
+        {
+            var vehicleTypes = await _carService.GetVehicleTypesAsync(makeId);
+            return Json(vehicleTypes);
+        }
         public IActionResult Privacy()
         {
             return View();

@@ -4,7 +4,7 @@ namespace CarExplorer.Services.Interfaces
 {
     public interface ICarService
     {
-        Task<List<CarMakeDto>> GetMakesAsync();
+        Task<List<CarMakeDto>> GetAllMakes();
         Task<List<VehicleTypeDto>> GetVehicleTypesAsync(int makeId);
         Task<List<CarModelDto>> GetModelsAsync(
             int makeId,

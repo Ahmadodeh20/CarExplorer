@@ -20,29 +20,27 @@ public class CarService : ICarService
     }
 
 
-    public async Task<List<CarMakeDto>> GetMakesAsync()
+    public async Task<List<CarMakeDto>> GetAllMakes()
     {
-        var response = await _httpClient
-            .GetFromJsonAsync<ApiResponse<CarMakeDto>>
-            (
-                $"{_baseUrl}getallmakes?format=json"
-            );
-
+        var response = await _httpClient.GetFromJsonAsync<ApiResponse<CarMakeDto>>($"{_baseUrl}getallmakes?format=json");
         return response?.Results ?? [];
     }
 
 
-    public Task<List<CarModelDto>> GetModelsAsync(
-        int makeId,
-        int year,
-        string vehicleType)
+    public Task<List<CarModelDto>> GetModelsAsync(int makeId,int year,string vehicleType)
     {
         throw new NotImplementedException();
     }
 
 
-    public Task<List<VehicleTypeDto>> GetVehicleTypesAsync(int makeId)
+    public async Task<List<VehicleTypeDto>> GetVehicleTypesAsync(int makeId)
     {
-        throw new NotImplementedException();
+        var response = await _httpClient
+            .GetFromJsonAsync<ApiResponse<VehicleTypeDto>>
+            (
+                $"{_baseUrl}GetVehicleTypesForMakeId/{makeId}?format=json"
+            );
+
+        return response?.Results ?? [];
     }
 }
