@@ -17,3 +17,76 @@ System.Exception: Test exception middleware
    at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
    at CarExplorer.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\ahmad\source\repos\CarExplorer\CarExplorer\Middleware\ExceptionMiddleware.cs:line 22
+[2026-07-18 14:20:59] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:20:59] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:21:00] [INF] Received HTTP response headers after 627.4555ms - 200
+[2026-07-18 14:21:00] [INF] End processing HTTP request after 682.0296ms - 200
+[2026-07-18 14:38:33] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:38:33] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:38:35] [INF] Received HTTP response headers after 1993.7094ms - 200
+[2026-07-18 14:38:35] [INF] End processing HTTP request after 2059.6655ms - 200
+[2026-07-18 14:38:43] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 14:38:43] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 14:38:46] [INF] Received HTTP response headers after 2163.4673ms - 200
+[2026-07-18 14:38:46] [INF] End processing HTTP request after 2164.9971ms - 200
+[2026-07-18 14:38:51] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 14:38:51] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 14:38:51] [INF] Received HTTP response headers after 222.7638ms - 200
+[2026-07-18 14:38:51] [INF] End processing HTTP request after 223.1203ms - 200
+[2026-07-18 14:38:55] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 14:38:55] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 14:38:55] [INF] Received HTTP response headers after 213.0352ms - 200
+[2026-07-18 14:38:55] [INF] End processing HTTP request after 213.6113ms - 200
+[2026-07-18 14:38:59] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:38:59] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:39:02] [INF] Received HTTP response headers after 2133.1895ms - 200
+[2026-07-18 14:39:02] [INF] End processing HTTP request after 2133.9252ms - 200
+[2026-07-18 14:40:59] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:40:59] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:41:02] [INF] Received HTTP response headers after 2748.0621ms - 200
+[2026-07-18 14:41:02] [INF] End processing HTTP request after 2820.3284ms - 200
+[2026-07-18 14:41:06] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 14:41:06] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 14:41:09] [INF] Received HTTP response headers after 2213.1366ms - 200
+[2026-07-18 14:41:09] [INF] End processing HTTP request after 2214.5374ms - 200
+[2026-07-18 14:41:18] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:41:18] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:41:19] [INF] Received HTTP response headers after 1818.7836ms - 200
+[2026-07-18 14:41:19] [INF] End processing HTTP request after 1819.4307ms - 200
+[2026-07-18 14:41:51] [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: The relative expiration value must be positive. (Parameter 'AbsoluteExpirationRelativeToNow')
+Actual value was 00:00:00.
+   at Microsoft.Extensions.Caching.Memory.CacheEntry.Microsoft.Extensions.Caching.Memory.ICacheEntry.set_AbsoluteExpirationRelativeToNow(Nullable`1 value)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Set[TItem](IMemoryCache cache, Object key, TItem value, TimeSpan absoluteExpirationRelativeToNow)
+   at CarExplorer.Services.Service.CarService.GetModelsAsync(Int32 makeId, Int32 year) in C:\Users\ahmad\source\repos\CarExplorer\CarExplorer\Services\Service\CarService.cs:line 83
+   at CarExplorer.Controllers.HomeController.GetModels(Int32 makeId, Int32 year) in C:\Users\ahmad\source\repos\CarExplorer\CarExplorer\Controllers\HomeController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CarExplorer.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\ahmad\source\repos\CarExplorer\CarExplorer\Middleware\ExceptionMiddleware.cs:line 22
+[2026-07-18 14:42:17] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:42:17] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:42:19] [INF] Received HTTP response headers after 1091.058ms - 200
+[2026-07-18 14:42:19] [INF] End processing HTTP request after 1091.5609ms - 200
+[2026-07-18 14:43:50] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:43:50] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 14:43:51] [INF] Received HTTP response headers after 1660.6431ms - 200
+[2026-07-18 14:43:51] [INF] End processing HTTP request after 1751.9113ms - 200
+[2026-07-18 14:43:59] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 14:43:59] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 14:43:59] [INF] Received HTTP response headers after 416.5949ms - 200
+[2026-07-18 14:43:59] [INF] End processing HTTP request after 417.913ms - 200
+[2026-07-18 14:44:07] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:44:07] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 14:44:07] [INF] Received HTTP response headers after 217.2972ms - 200
+[2026-07-18 14:44:07] [INF] End processing HTTP request after 218.3869ms - 200
