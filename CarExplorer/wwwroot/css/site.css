@@ -29,3 +29,67 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+:root {
+    --bs-primary: #f93;
+    --bs-primary-rgb: 255, 153, 51;
+}
+.table-primary {
+    --bs-table-bg: #f93 !important;
+    --bs-table-color: black !important;
+    --bs-table-border-color: #f93 !important;
+    background-color: #f93 !important;
+    color: black !important;
+}
+.table-primary th {
+    background-color: #f93 !important;
+    color: black !important;
+}
+.pagination .page-link {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.pagination .page-link:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+[v-cloak] {
+    display: none !important;
+}
+.btn:focus {
+    box-shadow: none !important;
+}
+.form-select {
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+    .form-select:hover {
+        border-color: #f93;
+    }
+
+    .form-select:focus {
+        border-color: #f93;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    }
+
+    .form-select:disabled {
+        background-color: #f1f3f5;
+        cursor: not-allowed;
+    }

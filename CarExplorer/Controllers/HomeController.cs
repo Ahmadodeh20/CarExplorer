@@ -1,6 +1,7 @@
 using CarExplorer.Models;
 using CarExplorer.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
 
 namespace CarExplorer.Controllers
@@ -10,12 +11,19 @@ namespace CarExplorer.Controllers
         private readonly ICarService _carService;
         public HomeController(ICarService carService)
         {
-           _carService = carService;
+            _carService = carService;
         }
-        public async Task<IActionResult> Index()
+
+        public IActionResult Index()
         {
-            var makes = await _carService.GetAllMakes();
-            return View(makes);
+            return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetMakes()
+        {
+            var makes = await _carService.GetAllMakesAsync();
+            return Json(makes);
         }
 
         [HttpGet]
@@ -26,11 +34,29 @@ namespace CarExplorer.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetModels(int makeId,int year)
+        public async Task<IActionResult> GetModels(int makeId, int year, int page = 1, int pageSize = 10)
         {
-            var models = await _carService.GetModelsAsync(makeId, year);
-            return Json(models);
+            var allModels = await _carService.GetModelsAsync(makeId, year);
+            var totalCount = allModels.Count();
+            var models = allModels
+                              .Skip((page - 1) * pageSize)
+                              .Take(pageSize)
+                              .Select(x => new
+                              {
+                                  x.Model_ID,
+                                  x.Model_Name
+                              })
+                              .ToList();
+
+            return Json(new
+            {
+                items = models,
+                totalPages = Math.Ceiling(
+                    (double)totalCount / pageSize
+                )
+            });
         }
+
         public IActionResult Privacy()
         {
             return View();

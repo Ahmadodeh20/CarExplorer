@@ -90,3 +90,255 @@ Actual value was 00:00:00.
 [2026-07-18 14:44:07] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
 [2026-07-18 14:44:07] [INF] Received HTTP response headers after 217.2972ms - 200
 [2026-07-18 14:44:07] [INF] End processing HTTP request after 218.3869ms - 200
+[2026-07-18 15:02:26] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:02:26] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:02:26] [INF] Received HTTP response headers after 628.6577ms - 200
+[2026-07-18 15:02:26] [INF] End processing HTTP request after 711.7407ms - 200
+[2026-07-18 15:02:59] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:02:59] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:02:59] [INF] Received HTTP response headers after 657.5431ms - 200
+[2026-07-18 15:02:59] [INF] End processing HTTP request after 726.0603ms - 200
+[2026-07-18 15:05:07] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:05:07] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:05:10] [INF] Received HTTP response headers after 2931.0299ms - 200
+[2026-07-18 15:05:10] [INF] End processing HTTP request after 3030.217ms - 200
+[2026-07-18 15:06:43] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:06:43] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:06:44] [INF] Received HTTP response headers after 839.5815ms - 200
+[2026-07-18 15:06:44] [INF] End processing HTTP request after 905.2921ms - 200
+[2026-07-18 15:09:21] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:09:21] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:09:22] [INF] Received HTTP response headers after 694.3262ms - 200
+[2026-07-18 15:09:22] [INF] End processing HTTP request after 758.394ms - 200
+[2026-07-18 15:09:29] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 15:09:29] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 15:09:29] [INF] Received HTTP response headers after 444.0113ms - 200
+[2026-07-18 15:09:29] [INF] End processing HTTP request after 445.4809ms - 200
+[2026-07-18 15:09:34] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 15:09:34] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 15:09:34] [INF] Received HTTP response headers after 229.4132ms - 200
+[2026-07-18 15:09:34] [INF] End processing HTTP request after 229.8397ms - 200
+[2026-07-18 15:10:30] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 15:10:30] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2020?*
+[2026-07-18 15:10:30] [INF] Received HTTP response headers after 224.7348ms - 200
+[2026-07-18 15:10:30] [INF] End processing HTTP request after 225.5013ms - 200
+[2026-07-18 15:16:00] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:16:00] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:16:01] [INF] Received HTTP response headers after 651.9731ms - 200
+[2026-07-18 15:16:01] [INF] End processing HTTP request after 729.3591ms - 200
+[2026-07-18 15:16:07] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 15:16:07] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 15:16:07] [INF] Received HTTP response headers after 324.7264ms - 200
+[2026-07-18 15:16:07] [INF] End processing HTTP request after 325.7443ms - 200
+[2026-07-18 15:16:21] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 15:16:21] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/2026?*
+[2026-07-18 15:16:25] [INF] Received HTTP response headers after 3611.741ms - 200
+[2026-07-18 15:16:25] [INF] End processing HTTP request after 3612.4998ms - 200
+[2026-07-18 15:16:44] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:16:44] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:16:48] [INF] Received HTTP response headers after 4637.5416ms - 200
+[2026-07-18 15:16:48] [INF] End processing HTTP request after 4638.6203ms - 200
+[2026-07-18 15:16:55] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2026?*
+[2026-07-18 15:16:55] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2026?*
+[2026-07-18 15:16:57] [INF] Received HTTP response headers after 2718.5184ms - 200
+[2026-07-18 15:16:57] [INF] End processing HTTP request after 2720.3892ms - 200
+[2026-07-18 15:24:47] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:24:47] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:24:49] [INF] Received HTTP response headers after 2078.2741ms - 200
+[2026-07-18 15:24:49] [INF] End processing HTTP request after 2155.9463ms - 200
+[2026-07-18 15:26:13] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:26:13] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:26:15] [INF] Received HTTP response headers after 2543.4072ms - 200
+[2026-07-18 15:26:15] [INF] End processing HTTP request after 2610.5968ms - 200
+[2026-07-18 15:26:50] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:26:50] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:26:50] [INF] Received HTTP response headers after 343.1251ms - 200
+[2026-07-18 15:26:50] [INF] End processing HTTP request after 344.2168ms - 200
+[2026-07-18 15:26:59] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2026?*
+[2026-07-18 15:26:59] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2026?*
+[2026-07-18 15:27:01] [INF] Received HTTP response headers after 2104.0712ms - 200
+[2026-07-18 15:27:01] [INF] End processing HTTP request after 2104.7976ms - 200
+[2026-07-18 15:39:20] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:39:20] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:39:22] [INF] Received HTTP response headers after 1615.9205ms - 200
+[2026-07-18 15:39:22] [INF] End processing HTTP request after 1702.2841ms - 200
+[2026-07-18 15:40:08] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:40:08] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:40:10] [INF] Received HTTP response headers after 1922.842ms - 200
+[2026-07-18 15:40:10] [INF] End processing HTTP request after 1984.9506ms - 200
+[2026-07-18 15:42:12] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:42:12] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:42:15] [INF] Received HTTP response headers after 2569.6074ms - 200
+[2026-07-18 15:42:15] [INF] End processing HTTP request after 2650.772ms - 200
+[2026-07-18 15:42:39] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:42:39] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:42:41] [INF] Received HTTP response headers after 2520.7097ms - 200
+[2026-07-18 15:42:41] [INF] End processing HTTP request after 2521.7678ms - 200
+[2026-07-18 15:42:49] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2020?*
+[2026-07-18 15:42:49] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2020?*
+[2026-07-18 15:42:51] [INF] Received HTTP response headers after 2145.2623ms - 200
+[2026-07-18 15:42:51] [INF] End processing HTTP request after 2145.6362ms - 200
+[2026-07-18 15:44:04] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:44:04] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:44:06] [INF] Received HTTP response headers after 2505.2933ms - 200
+[2026-07-18 15:44:06] [INF] End processing HTTP request after 2604.9349ms - 200
+[2026-07-18 15:44:16] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:44:16] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:44:18] [INF] Received HTTP response headers after 2497.7926ms - 200
+[2026-07-18 15:44:18] [INF] End processing HTTP request after 2499.2025ms - 200
+[2026-07-18 15:45:02] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:45:02] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:45:02] [INF] Received HTTP response headers after 643.7058ms - 200
+[2026-07-18 15:45:02] [INF] End processing HTTP request after 735.3362ms - 200
+[2026-07-18 15:45:16] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:45:16] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 15:45:18] [INF] Received HTTP response headers after 1512.1068ms - 200
+[2026-07-18 15:45:18] [INF] End processing HTTP request after 1513.6599ms - 200
+[2026-07-18 15:45:22] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 15:45:22] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 15:45:24] [INF] Received HTTP response headers after 2396.3946ms - 200
+[2026-07-18 15:45:24] [INF] End processing HTTP request after 2396.8302ms - 200
+[2026-07-18 15:46:04] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:46:04] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:46:05] [INF] Received HTTP response headers after 700.5684ms - 200
+[2026-07-18 15:46:05] [INF] End processing HTTP request after 785.1751ms - 200
+[2026-07-18 15:46:37] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:46:37] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:46:39] [INF] Received HTTP response headers after 2669.6484ms - 200
+[2026-07-18 15:46:39] [INF] End processing HTTP request after 2772.5708ms - 200
+[2026-07-18 15:47:01] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:47:01] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:47:03] [INF] Received HTTP response headers after 1904.2775ms - 200
+[2026-07-18 15:47:03] [INF] End processing HTTP request after 2013.3724ms - 200
+[2026-07-18 15:47:36] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:47:36] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:47:38] [INF] Received HTTP response headers after 2603.7818ms - 200
+[2026-07-18 15:47:38] [INF] End processing HTTP request after 2691.1489ms - 200
+[2026-07-18 15:49:51] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:49:51] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:49:52] [INF] Received HTTP response headers after 624.5739ms - 200
+[2026-07-18 15:49:52] [INF] End processing HTTP request after 696.2626ms - 200
+[2026-07-18 15:51:51] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:51:51] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:51:54] [INF] Received HTTP response headers after 2440.8117ms - 200
+[2026-07-18 15:51:54] [INF] End processing HTTP request after 2544.477ms - 200
+[2026-07-18 15:59:22] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:59:22] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 15:59:23] [INF] Received HTTP response headers after 680.5668ms - 200
+[2026-07-18 15:59:23] [INF] End processing HTTP request after 739.8525ms - 200
+[2026-07-18 15:59:55] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 15:59:55] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/12858?*
+[2026-07-18 15:59:56] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/1900?*
+[2026-07-18 15:59:56] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/1900?*
+[2026-07-18 15:59:56] [INF] Received HTTP response headers after 1181.9935ms - 200
+[2026-07-18 15:59:56] [INF] End processing HTTP request after 1184.0006ms - 200
+[2026-07-18 15:59:57] [INF] Received HTTP response headers after 337.3343ms - 200
+[2026-07-18 15:59:57] [INF] End processing HTTP request after 337.6697ms - 200
+[2026-07-18 15:59:57] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/1900?*
+[2026-07-18 15:59:57] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/1900?*
+[2026-07-18 15:59:59] [INF] Received HTTP response headers after 2187.3001ms - 200
+[2026-07-18 15:59:59] [INF] End processing HTTP request after 2187.7954ms - 200
+[2026-07-18 16:00:02] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/1900?*
+[2026-07-18 16:00:02] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/12858/modelyear/1900?*
+[2026-07-18 16:00:02] [INF] Received HTTP response headers after 527.5827ms - 200
+[2026-07-18 16:00:02] [INF] End processing HTTP request after 528.1636ms - 200
+[2026-07-18 16:00:14] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:00:14] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:00:15] [INF] Received HTTP response headers after 317.3634ms - 200
+[2026-07-18 16:00:15] [INF] End processing HTTP request after 319.8313ms - 200
+[2026-07-18 16:00:24] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:00:24] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:00:25] [INF] Received HTTP response headers after 241.4997ms - 200
+[2026-07-18 16:00:25] [INF] End processing HTTP request after 242.1241ms - 200
+[2026-07-18 16:03:49] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:03:49] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:03:51] [INF] Received HTTP response headers after 1648.6948ms - 200
+[2026-07-18 16:03:51] [INF] End processing HTTP request after 1716.3282ms - 200
+[2026-07-18 16:04:26] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:04:26] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:04:27] [INF] Received HTTP response headers after 499.934ms - 200
+[2026-07-18 16:04:27] [INF] End processing HTTP request after 500.9564ms - 200
+[2026-07-18 16:04:31] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:04:31] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:04:31] [INF] Received HTTP response headers after 250.088ms - 200
+[2026-07-18 16:04:31] [INF] End processing HTTP request after 250.7454ms - 200
+[2026-07-18 16:05:17] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:05:17] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:05:18] [INF] Received HTTP response headers after 1431.8351ms - 200
+[2026-07-18 16:05:18] [INF] End processing HTTP request after 1432.2949ms - 200
+[2026-07-18 16:05:31] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:05:31] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:05:32] [INF] Received HTTP response headers after 231.0556ms - 200
+[2026-07-18 16:05:32] [INF] End processing HTTP request after 231.6565ms - 200
+[2026-07-18 16:05:47] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:05:47] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:05:49] [INF] Received HTTP response headers after 1785.8321ms - 200
+[2026-07-18 16:05:49] [INF] End processing HTTP request after 1866.5742ms - 200
+[2026-07-18 16:06:00] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:06:00] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:06:01] [INF] Received HTTP response headers after 311.709ms - 200
+[2026-07-18 16:06:01] [INF] End processing HTTP request after 312.7253ms - 200
+[2026-07-18 16:06:06] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:06:06] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:06:07] [INF] Received HTTP response headers after 905.5105ms - 200
+[2026-07-18 16:06:07] [INF] End processing HTTP request after 905.9031ms - 200
+[2026-07-18 16:06:29] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:06:29] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:06:29] [INF] Received HTTP response headers after 230.4399ms - 200
+[2026-07-18 16:06:29] [INF] End processing HTTP request after 233.2061ms - 200
+[2026-07-18 16:06:45] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:06:45] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:06:46] [INF] Received HTTP response headers after 1721.4219ms - 200
+[2026-07-18 16:06:46] [INF] End processing HTTP request after 1781.6533ms - 200
+[2026-07-18 16:06:55] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:06:55] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:06:56] [INF] Received HTTP response headers after 316.7142ms - 200
+[2026-07-18 16:06:56] [INF] End processing HTTP request after 317.7895ms - 200
+[2026-07-18 16:07:00] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:07:00] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:07:02] [INF] Received HTTP response headers after 2250.8897ms - 200
+[2026-07-18 16:07:02] [INF] End processing HTTP request after 2251.2576ms - 200
+[2026-07-18 16:07:41] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:07:41] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:07:42] [INF] Received HTTP response headers after 1251.0085ms - 200
+[2026-07-18 16:07:42] [INF] End processing HTTP request after 1251.7138ms - 200
+[2026-07-18 16:09:19] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:09:19] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:09:21] [INF] Received HTTP response headers after 1942.0499ms - 200
+[2026-07-18 16:09:21] [INF] End processing HTTP request after 2016.2226ms - 200
+[2026-07-18 16:09:30] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:09:30] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:09:30] [INF] Received HTTP response headers after 346.4308ms - 200
+[2026-07-18 16:09:30] [INF] End processing HTTP request after 347.8006ms - 200
+[2026-07-18 16:09:38] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:09:38] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:09:42] [INF] Received HTTP response headers after 4204.2285ms - 200
+[2026-07-18 16:09:42] [INF] End processing HTTP request after 4204.8469ms - 200
+[2026-07-18 16:10:05] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:10:05] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:10:06] [INF] Received HTTP response headers after 1615.5247ms - 200
+[2026-07-18 16:10:06] [INF] End processing HTTP request after 1685.6558ms - 200
+[2026-07-18 16:10:16] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:10:16] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:10:18] [INF] Received HTTP response headers after 2057.2582ms - 200
+[2026-07-18 16:10:18] [INF] End processing HTTP request after 2058.3643ms - 200
+[2026-07-18 16:10:22] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:10:22] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:10:22] [INF] Received HTTP response headers after 226.4108ms - 200
+[2026-07-18 16:10:22] [INF] End processing HTTP request after 226.8608ms - 200
+[2026-07-18 16:11:21] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:11:21] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:11:23] [INF] Received HTTP response headers after 2395.1238ms - 200
+[2026-07-18 16:11:23] [INF] End processing HTTP request after 2467.0754ms - 200
+[2026-07-18 16:12:45] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:12:45] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?*
+[2026-07-18 16:12:46] [INF] Received HTTP response headers after 673.4314ms - 200
+[2026-07-18 16:12:46] [INF] End processing HTTP request after 785.1429ms - 200
+[2026-07-18 16:14:27] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:14:27] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/452?*
+[2026-07-18 16:14:28] [INF] Received HTTP response headers after 588.5923ms - 200
+[2026-07-18 16:14:28] [INF] End processing HTTP request after 589.8849ms - 200
+[2026-07-18 16:14:33] [INF] Start processing HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:14:33] [INF] Sending HTTP request GET https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/452/modelyear/2024?*
+[2026-07-18 16:14:33] [INF] Received HTTP response headers after 245.7213ms - 200
+[2026-07-18 16:14:33] [INF] End processing HTTP request after 246.1057ms - 200
