@@ -48,3 +48,21 @@ From the project root directory, run:
 
 ```bash
 docker compose up
+
+
+## Project Structure
+CarExplorer
+│
+├── CarExplorer
+│ ├── Controllers
+│ ├── Models
+│ ├── Services
+│ ├── Views
+│ ├── wwwroot
+│ └── Program.cs
+│
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── CarExplorer.slnx
+└── README.md
