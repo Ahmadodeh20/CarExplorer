@@ -73,7 +73,7 @@ const app = createApp({
             try {
 
                 const response = await fetch(
-                    "/Home/GetMakes"
+                    "/CarExplorer/GetMakes"
                 );
 
 
@@ -114,7 +114,7 @@ const app = createApp({
 
 
                 const response = await fetch(
-                    `/Home/GetVehicleTypes?makeId=${this.selectedMake}`
+                    `/CarExplorer/GetVehicleTypes?makeId=${this.selectedMake}`
                 );
 
 
@@ -176,7 +176,7 @@ const app = createApp({
 
                 const response = await fetch(
 
-                    `/Home/GetModels?makeId=${this.selectedMake}&year=${this.year}&page=${this.currentPage}&pageSize=${this.pageSize}`
+                    `/CarExplorer/GetModels?makeId=${this.selectedMake}&year=${this.year}&page=${this.currentPage}&pageSize=${this.pageSize}`
 
                 );
 

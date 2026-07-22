@@ -11,28 +11,17 @@ COPY . .
 
 WORKDIR "/src/CarExplorer"
 
-RUN dotnet build "CarExplorer.csproj" -c Release -o /app/build
-
-
-# Publish stage
-FROM build AS publish
-
-RUN dotnet publish "CarExplorer.csproj" \
-    -c Release \
-    -o /app/publish \
-    /p:UseAppHost=false
-
+RUN dotnet publish "CarExplorer.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Runtime stage
-
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 
 WORKDIR /app
 
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
 
-ENV ASPNETCORE_URLS=http://+:8080
+ENV ASPNETCORE_URLS=http://+:80
 
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT ["dotnet", "CarExplorer.dll"]
