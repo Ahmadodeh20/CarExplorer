@@ -132,11 +132,11 @@ The application is deployed using:
 * AWS Elastic Beanstalk
 * Docker platform
 
-Live Demo:
+## Live Demo 🚀
 
-```
-http://carexplorer-env.eba-vdpmzq9b.eu-north-1.elasticbeanstalk.com
-```
+The application is deployed on AWS Elastic Beanstalk using Docker.
+
+[Open Car Explorer](http://carexplorer-env.eba-vdpmzq9b.eu-north-1.elasticbeanstalk.com)
 
 ## Project Structure
 
