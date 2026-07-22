@@ -1,68 +1,161 @@
-# CarExplorer
+# Car Explorer 🚗
 
-CarExplorer is a web application that allows users to search for vehicle information by selecting a car make, manufacture year, and vehicle type.
+Car Explorer is a web application that allows users to search and explore vehicle information by selecting a car make, manufacture year, and vehicle type.
 
-The application retrieves vehicle data from the NHTSA Vehicle API and displays available vehicle types and models based on user criteria.
-
-## Technologies
-
-- ASP.NET Core MVC (.NET 10)
-- Entity Framework Core
-- Docker
-- Docker Compose
-- NHTSA Vehicle API
+The application consumes the NHTSA Vehicle API to retrieve vehicle data and provides a simple user interface for browsing available models.
 
 ## Features
 
-- Browse available car makes
-- Select manufacture year
-- Retrieve vehicle types
-- Retrieve vehicle models
-- Responsive user interface
-- Dockerized application
+* Search vehicles by:
+
+  * Car Make
+  * Manufacture Year
+  * Vehicle Type
+* Display vehicle models in a paginated table
+* Responsive user interface
+* External API integration
+* Memory caching to improve performance
+* Global exception handling
+* Structured logging using Serilog
+* Dockerized application
+* Hosted on AWS Elastic Beanstalk
+
+## Technologies Used
+
+### Backend
+
+* ASP.NET Core (.NET 10)
+* Dependency Injection
+* HttpClient
+* Memory Cache
+* Serilog
+
+### Frontend
+
+* Razor Views
+* Bootstrap
+* JavaScript
+* Font Awesome
+
+### DevOps / Cloud
+
+* Docker
+* Docker Compose
+* AWS Elastic Beanstalk
+
+## External API
+
+This project uses the NHTSA Vehicle API:
+
+* Get all vehicle makes
+* Get vehicle types by make
+* Retrieve vehicle models
 
 ## Prerequisites
 
-Before running the application, make sure you have the following installed:
+Before running the application locally, make sure you have:
 
-- .NET 10 SDK
-- Visual Studio 2026 (or any compatible IDE)
-- Docker Desktop (for running with containers)
-
+* .NET 10 SDK
+* Docker Desktop (optional)
+* Visual Studio or any compatible IDE
 
 ## Running Locally
 
-1. Clone the repository:
+### Using .NET
+
+Clone the repository:
 
 ```bash
 git clone <repository-url>
+```
 
+Navigate to the project folder:
+
+```bash
+cd CarExplorer
+```
+
+Run the application:
+
+```bash
+dotnet run
+```
+
+The application will be available at:
+
+```
+http://localhost:5000
+```
+
+---
 
 ## Running with Docker
 
-Make sure Docker Desktop is installed and running.
-
-### Build and Run Using Docker Compose
-
-From the project root directory, run:
+Build the Docker image:
 
 ```bash
-docker compose up
+docker build -t carexplorer .
+```
 
+Run the container:
+
+```bash
+docker run -p 8080:8080 carexplorer
+```
+
+The application will be available at:
+
+```
+http://localhost:8080
+```
+
+### Using Docker Compose
+
+Run:
+
+```bash
+docker compose up --build
+```
+
+The application will be available at:
+
+```
+http://localhost:8080
+```
+
+---
+
+## AWS Deployment
+
+The application is deployed using:
+
+* AWS Elastic Beanstalk
+* Docker platform
+
+Live Demo:
+
+```
+http://carexplorer-env.eba-vdpmzq9b.eu-north-1.elasticbeanstalk.com
+```
 
 ## Project Structure
+
+```
 CarExplorer
 │
-├── CarExplorer
-│ ├── Controllers
-│ ├── Models
-│ ├── Services
-│ ├── Views
-│ ├── wwwroot
-│ └── Program.cs
-│
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── CarExplorer.slnx
-└── README.md
+├── Controllers
+├── Models
+│   ├── DTOs
+│   └── Settings
+├── Services
+│   ├── Interfaces
+│   └── Service
+├── Middleware
+├── Extensions
+├── Views
+└── wwwroot
+```
+
+## License
+
+This project was developed as part of a technical assignment.
